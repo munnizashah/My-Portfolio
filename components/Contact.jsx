@@ -43,11 +43,12 @@ const Contact = () => {
                   </div>
                   <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <Link target="_blank" href="https://github.com/munnizashah">
+                      {" "}
                       <FaGithub style={{ fill: "white" }} />
                     </Link>
                   </div>
                   <div className="rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <Link href="mailto: shahmunniza@gmail.com">
+                    <Link target="_blank" href="mailto: shahmunniza@gmail.com">
                       <AiOutlineMail style={{ fill: "white" }} />
                     </Link>
                   </div>
