@@ -64,7 +64,7 @@ const Contact = () => {
           <div className="col-span-3 w-full h-auto shadow-xl shadow-black rounded-xl lg:p-4">
             <div className="p-4">
               <form
-                action="https://formsubmit.co/shahmunniza@gmail.com"
+                action="https://formsubmit.co/ab89f88841a884108a73689da45f75dc"
                 method="POST"
               >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
