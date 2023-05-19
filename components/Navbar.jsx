@@ -103,9 +103,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="border-b border-gray-600 my-4">
-            <p className="w-[85%] md:w-[90%] py-4">
-              Lets build a great portfolio
-            </p>
+            <p className="w-[85%] md:w-[90%] py-4">Welcome to my portfolio!</p>
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
