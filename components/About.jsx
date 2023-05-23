@@ -1,7 +1,14 @@
 "use client";
+import { gsap } from "gsap";
+
 import React from "react";
 import Image from "next/image";
 import Moni from "../public/assets/other/moni.jpg";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+
+gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollToPlugin);
 
 const About = () => {
   return (
@@ -13,22 +20,27 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I am</h2>
           <p className="py-2 text-gray-300">
-            I am on my 23rd year around the sun and currently studying frontend
+            I'm on my 23rd year around the sun and currently studying frontend
             development at Hyper Island.
           </p>
           <p className="py-2 text-gray-300">
-            I would call myself a student of life and a creator of heart and
-            love bringing value to others. Being able to create from scratch and
-            watch my code become a reality is what puts a smile on my face. I
-            enjoy being in an innovative and creative environment as that is
-            where my potential flourishes.
+            So who am I really? I would very shortly call myself a student of
+            life and a creator at heart who loves bringing value to others.
+            Being able to create from scratch and watch my code become a reality
+            is what puts a smile on my face. Although working with code, smiles
+            don't last very long when you're hunted by errors. But hunting those
+            smiles keeps me going! I love to learn and evolve and truly enjoy
+            being in an innovative and creative environment as that's where my
+            potential blossoms.
           </p>
           <p className="py-2 text-gray-300">
-            Take a look around my portfolio and reach out! Lets create some
-            magic!{" "}
+            Take a look around and hit me up! Let's create some magic!{" "}
           </p>
         </div>
-        <div className="w-[240px] h-auto m-auto shadow-xl shadow-black rounded-xl flex items-center justify-center p-4 hover:scale-105 hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ease-in duration-300">
+        <div
+          className="w-[240px] h-auto m-auto shadow-xl shadow-black rounded-xl flex items-center justify-center p-4 hover:scale-105 hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ease-in duration-300"
+          id="myphoto"
+        >
           <Image
             className="rounded-xl"
             src={Moni}

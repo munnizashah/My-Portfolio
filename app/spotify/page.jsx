@@ -28,11 +28,12 @@ const spotify = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            A fun group project recreating a Spotify mobile version figma design
-            with out own little twist. This was the first time using React and
-            it was tricky to start with but when I got familiar with it I
-            started enjoying working with it and I can understand why it is
-            popular.
+            A really fun group project re-creating a Spotify mobile version
+            figma design with our own little twist. This was my first time using
+            React and it was tricky to start with as I had to shift "programming
+            mindset" and work with components etc. But now when I'm familiar
+            with it I truly enjoy working with React and I can understand why
+            it's so popular.
           </p>
           <Link target="_blank" href="https://github.com/WeActForever/clonify">
             <button className="px-8 py-2 mt-4">Github</button>

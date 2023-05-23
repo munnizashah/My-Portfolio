@@ -2,7 +2,7 @@
 import React from "react";
 
 import skillspic from "../public/assets/projects/skillspic.png";
-import spotifypic2 from "../public/assets/projects/spotifypic2.png";
+import spotifythumbnail from "../public/assets/projects/spotifythumbnail.png";
 import todopicfirst from "../public/assets/projects/todopicfirst.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,7 +24,7 @@ const Projects = () => {
           />
           <ProjectItem
             title="Spotify Mobile App"
-            backgroundImg={spotifypic2}
+            backgroundImg={spotifythumbnail}
             projectUrl="/spotify"
           />
           <ProjectItem

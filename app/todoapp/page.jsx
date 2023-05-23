@@ -29,11 +29,13 @@ const todoapp = () => {
           <p>
             A todo application built with RESTful API principles and a database
             where we call the data from our todo web application. I truly
-            enjoyed working on this project even if it was tough in the
-            beginning. We used Sequelize to communicate to the database and
-            express.js for this process. While working on this project I
-            realised that I enjoy backend as well, it was fun building both
-            back- and frontend.{" "}
+            enjoyed working on this project even if it was tough understanding
+            all the different parts of the backend and their functionality in
+            the beginning. But with time I started to grasp the concepts and the
+            why's. Such a great feeling! We used postgreSQL and Sequelize to
+            communicate to the database and express.js. While working on this
+            project I realised that I actually enjoy backend as well, it felt
+            complete to built both the back- and frontend.{" "}
           </p>
           <Link
             target="_blank"

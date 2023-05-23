@@ -1,6 +1,8 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

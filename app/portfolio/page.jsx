@@ -29,8 +29,11 @@ const portfolio = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            A simple modern portfolio for my project which I built with Next.js
-            and tailwind.
+            A simple portfolio for my projects which I built with Next.js,
+            tailwind and gsap for some animation. I love the smoothness and the
+            simplicity and would like to add some more animations. This was my
+            first Next.js project, I have worked with React before so it was
+            very similar which I liked and routing was easier as well.
           </p>
           <Link target="_blank" href="https://github.com/munnizashah/Portfolio">
             <button className="px-8 py-2 mt-4">Github</button>
