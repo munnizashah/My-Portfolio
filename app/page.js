@@ -12,12 +12,12 @@ import Contact from "@/components/Contact";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Main />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <Navbar scroll={false} />
+      <Main scroll={false} />
+      <About scroll={false} />
+      <Skills scroll={false} />
+      <Projects scroll={false} />
+      <Contact scroll={false} />
     </>
   );
 }
